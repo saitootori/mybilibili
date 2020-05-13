@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+#navTop,#nav-bannerBody,#shopBody,#footerBody,.lastBody{
+    margin: 0 auto;
+    width: 1226px;
+}
+
+header{
+    background: #333;
+    height: 40px;
+}
+#nav-bannerBox{
+    height: 770px;
+}
+#shopBox{
+    height: 6035px;
+    background: #F5F5F5;
+    padding: 4px 0 12px;
+}
+footer{
+    height: 504px;
+}
+
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+
+
+
+
+#navTop{
+    height: 100%;
+}
+
+#navTop>.left{
+    width: 705px;
+    height: 40px;
+}
+
+#navTop>.left>a{
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    line-height: 40px; 
+    color: #b0b0b0;
+}
+
+#navTop span{
+    float: left;
+    margin: auto 3.6px;
+    width: 3.23px;
+    line-height: 40px;
+    color: #424242;
+}
+
+#navTop>.car{
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px; 
+    background: #424242;
+    color: #b0b0b0;
+    text-align: center;
+}
+
+#navTop>.user{
+    width: 143px;
+    height: 40px;
+}
+
+#navTop>.user>a{
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    line-height: 40px; 
+    color: #b0b0b0;
+}
+
+
+
+
+#nav-bannerBody>.tit{
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+h1{
+    width: 62px;
+    height: 80px;
+    padding-top: 20px;
+}
+
+h1>img{
+    width: 55px;
+    height: 55px;
+    background: orange;
+}
+
+#nav-bannerBody .tit>nav{
+    width: 696px;
+    height: 88px;
+    padding: 12px 0 0 172px;
+}
+
+#nav-bannerBody .tit>nav>a{
+    height: 24px;
+    padding: 26px 10px 38px;
+    float: left;
+}
+
+#nav-bannerBody .tit>nav>a>span{
+    font-size: 16px;
+    color: #333;
+}
+
+#nav-bannerBody .tit>form{
+    width: 294px;
+    height: 50px;
+    margin-top: 25px;
+    border: 1px solid #e0e0e0;
+}
+
+#nav-bannerBody .tit>form>button{
+    width: 52px;
+    height: 100%;
+    border: 1px solid white;
+    border-left: 1px solid #e0e0e0;
+    background: white;
+}
+
+
+#nav-bannerBody>.bannerBox{
+    width: 100%;
+    height: 460px;
+    background: aqua;
+}
+
+
+.bannerBox>nav{
+    width: 234px;
+    height: 420px;
+    /* background: yellow; */
+    padding: 20px 0;
+    background: rgba(105,101,101,.6);
+    /* opacity: 0.5; */
+}
+
+.bannerBox>nav>a{
+    height: 42px;
+    font-size: 14px;
+    line-height: 42px;
+    color: #ffffff;
+    padding: 0 0 0 30px;
+}
+
+.bannerBox>nav>a>em{
+    margin-right: 20px;
+}
+
+
+
+.liBox{
+    width: 100%;
+    height: 170px;
+    margin-top: 14px;
+}
+
+.liBox>.left{
+    width: 234px;
+    height: 100%;
+    background: red;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.liBox>.left>li{
+    width: 76px;
+    height: 82px;
+    background: gray;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+.liBox>.left>li>a{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+}
+
+.liBox>.list{
+    float: left;
+    width: 978px;
+    height: 170px;
+    margin-left: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.liBox>.list>div{
+    width: 316px;
+    height: 170px;
+    float: left;
+    background:pink;
+}
+
+
+
+#shopBox .tit{
+    width: 100%;
+}
+
+#shopBox .tit>h2{
+    height: 100%;
+    font-size: 22px;
+    color: #333;
+    line-height: 58px;
+}
+
+#shopBox .tit .turnBox{
+    margin-top:24px;
+}
+
+#shopBox .tit .turnBox>.left{
+    width: 36px;
+    height: 24px;
+    border: white;
+}
+
+#shopBox .tit .turnBox>.right{
+    width: 36px;
+    height: 24px;
+    border: white;
+}
+
+
+
+#shopBox .Box>.time{
+    width: 234px;
+    height: 340px;
+    background: #f1eded;
+    border-top: 1px solid #e53935;
+}
+
+#shopBox .Box>.banner{
+    width: 978px;
+    height: 340px;
+    background: gray;
+    margin-left: 14px;
+}
+
+
+#shopBox h3{
+    width: 1226px;
+    height: 120px;
+    padding: 22px 0 22px 0;
+}
+
+#shopBox h3>img{
+    width: 100%;
+    height: 120px;
+    background: red;
+}
+
+
+#shopBox .MIX{
+    width: 234px;
+    height: 614px;
+    background: aqua;
+}
+
+#shopBox .phoneBox{
+    width: 992px;
+    height: 614px;
+}
+
+#shopBox .phoneBox>a{
+    width: 234px;
+    height: 260px;
+    background: blue;
+    margin: 0 0 14px 14px;
+    float: left;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+#footerBody{
+    background: red;
+    height: 272px;
+}
+
+#last{
+    width: 100%;
+    height: 232px;
+    background: #fafafa;
+}
+
+.lastBody{
+    height: 100%;
+    background: aqua;
+    box-sizing: border-box;
+    padding: 30px 0;
+}
+
